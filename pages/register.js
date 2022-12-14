@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { HiAtSymbol, HiFingerPrint, HiOutlineUser } from "react-icons/hi";
 import { useState } from 'react';
 import { useFormik } from 'formik';
+import { Formik } from 'formik';
 
 export default function Register() {
 

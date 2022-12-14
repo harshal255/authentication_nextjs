@@ -7,6 +7,7 @@ import { HiAtSymbol, HiFingerPrint } from "react-icons/hi";
 import { useState } from 'react';
 import { signIn, signOut } from "next-auth/react"
 import { useFormik } from 'formik';
+import { Formik } from 'formik';
 
 
 export default function Login() {
